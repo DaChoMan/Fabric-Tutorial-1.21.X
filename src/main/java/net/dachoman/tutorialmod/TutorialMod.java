@@ -1,5 +1,6 @@
 package net.dachoman.tutorialmod;
 
+import net.dachoman.tutorialmod.block.ModBlocks;
 import net.dachoman.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
