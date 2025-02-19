@@ -1,7 +1,12 @@
 {
+
   "item.tutorialmod.pink_jewel": "Pink Jewel",
   "item.tutorialmod.raw_pink_jewel": "Raw Pink Jewel",
 
   "block.tutorialmod.pink_jewel_block": "Block of Pink Jewel",
-  "block.tutorialmod.raw_pink_jewel_block": "Block of Raw Pink Jewel"
+  "block.tutorialmod.raw_pink_jewel_block": "Block of Raw Pink Jewel",
+
+  "itemgroup.tutorialmod.pink_jewel_items": "Pink Jewel Items",
+  "itemgroup.tutorialmod.pink_jewel_blocks": "Pink Jewel Blocks"
+
 }
