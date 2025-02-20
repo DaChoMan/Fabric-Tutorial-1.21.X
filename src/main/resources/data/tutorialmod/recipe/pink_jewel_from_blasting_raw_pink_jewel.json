@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "pink_jewel",
+  "category": "misc",
+  "ingredient": {
+      "item": "tutorialmod:raw_pink_jewel"
+  },
+  "result": {
+    "id": "tutorialmod:pink_jewel"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

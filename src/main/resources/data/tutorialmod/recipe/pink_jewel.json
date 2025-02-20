@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:pink_jewel_block"
+    }
+  ],
+  "result": {
+    "id": "tutorialmod:pink_jewel",
+    "count": 9
+  }
+}
