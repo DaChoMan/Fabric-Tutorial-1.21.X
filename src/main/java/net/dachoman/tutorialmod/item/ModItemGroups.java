@@ -32,6 +32,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_JEWEL_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_JEWEL_BLOCK);
 
+                        entries.add(ModBlocks.PINK_JEWEL_ORE);
+                        entries.add(ModBlocks.PINK_JEWEL_DEEPSLATE_ORE);
+
                     }).build());
 
 

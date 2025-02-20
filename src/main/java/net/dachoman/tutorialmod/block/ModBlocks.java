@@ -4,6 +4,7 @@ import net.dachoman.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -13,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block PINK_JEWEL_BLOCK = registerBlock("pink_jewel_block",
@@ -25,7 +27,12 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER)
                     .mapColor(MapColor.DARK_DULL_PINK)
                     .instrument(NoteBlockInstrument.BASEDRUM)));
-
+    public static final Block PINK_JEWEL_ORE = registerBlock("pink_jewel_ore",
+        new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block PINK_JEWEL_DEEPSLATE_ORE = registerBlock("pink_jewel_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
     private static  Block registerBlock(String name, Block block) {
