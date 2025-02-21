@@ -1,6 +1,7 @@
 package net.dachoman.tutorialmod.item;
 
 import net.dachoman.tutorialmod.TutorialMod;
+import net.dachoman.tutorialmod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,6 +13,9 @@ public class ModItems {
 
     public static final Item PINK_JEWEL = registerItem("pink_jewel", new Item(new Item.Settings()));
     public static final Item RAW_PINK_JEWEL = registerItem("raw_pink_jewel", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+
 
     private  static Item registerItem(String name, Item item) {
 

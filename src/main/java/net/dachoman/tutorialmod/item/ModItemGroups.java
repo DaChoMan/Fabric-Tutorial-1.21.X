@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_JEWEL);
                         entries.add(ModItems.RAW_PINK_JEWEL);
 
+                        entries.add(ModItems.CHISEL);
+
                     }).build());
 
     public static final ItemGroup PINK_JEWEL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
